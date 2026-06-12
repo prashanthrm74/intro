@@ -3,10 +3,10 @@ import { Link } from "react-router-dom"
 const Navbar = () => {
   return (
     <>
-    < div className="bg-gray-400 flex">
+    < div className="bg-gray-400 flex h-15 justify-between">
 
     <Logo/>
-       <Links/>
+    <Links/>
 
     </div>
     
@@ -22,7 +22,7 @@ const Logo=()=>{
 
     return(
         <>
-        <div className="w-18 mx-5 ">
+        <div className="w-15 mx-5 ">
             <img src="./Logo.png" />
 
         </div>
